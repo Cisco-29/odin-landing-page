@@ -2,13 +2,15 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+        font-family: "robota", sans-serif;
 }
 
+/*HEADER*/
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    font-family: "robota", sans-serif;
+
 }
 
 .logo{
@@ -33,4 +35,56 @@ body{
 li{
     text-decoration-style: none;
     list-style: none;
+}
+
+/*Sec 1*/
+.secOne {
+    display: flex;
+    background-color: #1f2937;
+    padding: 64px;
+}
+.left{
+    flex: 1;
+    padding-right: 12px;
+}
+.left > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 12px;
+}
+.left > p{
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+}
+.left > button{
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 100px;
+    height: 28px;
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+}
+.fakeImage{
+    background-color: lightgray;
+    flex: 1;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    border: 1pt solid lightblue;
 }
