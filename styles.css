@@ -1,4 +1,36 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-family: "robota", sans-serif;
+}
+
+.logo{
+    font-size: 16pt;
+    font-weight: bolder;
+    color: #f9faf8;
+    align-self: center;
+    margin-left: 64px;
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    font-size: 10pt;
+    font-weight: 100;
+    color: #e5e7eb;
+    align-self: center;
+    margin-right: 64px;
+}
+
+li{
+    text-decoration-style: none;
+    list-style: none;
 }
