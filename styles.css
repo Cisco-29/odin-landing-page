@@ -79,17 +79,24 @@ li{
 .secTwo {
     display: flex;
     background-color: #f9faf8;
-    padding-left: 64px;
-    padding-right: 64px;
+    /*padding-left: 64px;
+    padding-right: 64px;*/
+    justify-content: space-between;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 64px;
 }
 .secTwo > h2{ /* header */
     text-align: center;
 }
 .fourPics{
     display: flex;
-    /*flex: 1;*/
+    max-width: 1000px;
+    width: 100%;
+    flex: 1;
     justify-content: space-between;
+    align-self: center;
     gap: 5px;
 }
 .picGroup{
@@ -98,12 +105,12 @@ li{
     justify-content: center;
 
 }
-
 .picGroup > p {
     align-self: center;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 200px;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
 }
 .boximage{
     height: 200px;
@@ -114,9 +121,38 @@ li{
     margin: 0;
 }
 
+/*SecThree*/
 
+.secThree{
+    background-color: #e5e7eb ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
 
-
+.quotes{
+    flex: 1;
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.quoter{
+    margin: 0;
+    align-self: center;
+    text-align: right;
+    font-weight: bolder;
+    max-width: 1000px;
+    width: 100%;
+}
 
 
 
