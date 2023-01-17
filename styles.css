@@ -37,7 +37,7 @@ li{
     list-style: none;
 }
 
-/*Sec 1*/
+/*SecOne*/
 .secOne {
     display: flex;
     background-color: #1f2937;
@@ -74,8 +74,45 @@ li{
     color: white;
 }
 
+/*SecTwo*/
 
+.secTwo {
+    display: flex;
+    background-color: #f9faf8;
+    padding-left: 64px;
+    padding-right: 64px;
+    flex-direction: column;
+}
+.secTwo > h2{ /* header */
+    text-align: center;
+}
+.fourPics{
+    display: flex;
+    /*flex: 1;*/
+    justify-content: space-between;
+    gap: 5px;
+}
+.picGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+
+.picGroup > p {
+    align-self: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.boximage{
+    height: 200px;
+    width: 200px;
+    border: 2pt solid #3882f6;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0;
+}
 
 
 
