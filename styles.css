@@ -41,11 +41,21 @@ li{
 .secOne {
     display: flex;
     background-color: #1f2937;
-    padding: 64px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    justify-content: center;
+}
+.secOneContent{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+
 }
 .left{
     flex: 1;
-    padding-right: 12px;
+    padding-right: 32px;
 }
 .left > h1{
     font-size: 48px;
@@ -75,7 +85,6 @@ li{
 }
 
 /*SecTwo*/
-
 .secTwo {
     display: flex;
     background-color: #f9faf8;
@@ -109,8 +118,6 @@ li{
     align-self: center;
     text-align: center;
     max-width: 200px;
-    /*padding-left: 30px;
-    padding-right: 30px;*/
 }
 .boximage{
     height: 200px;
@@ -133,7 +140,6 @@ li{
     padding-bottom: 64px;
     padding-top: 64px;
 }
-
 .quotes{
     flex: 1;
     align-self: center;
