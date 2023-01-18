@@ -4,7 +4,6 @@ body{
     margin: 0;
         font-family: "robota", sans-serif;
 }
-
 /*HEADER*/
 .header{
     display: flex;
@@ -12,7 +11,6 @@ body{
     background-color: #1f2937;
 
 }
-
 .logo{
     font-size: 16pt;
     font-weight: bolder;
@@ -21,7 +19,6 @@ body{
     margin-left: 64px;
 
 }
-
 .nav{
     display: flex;
     gap: 20px;
@@ -31,12 +28,10 @@ body{
     align-self: center;
     margin-right: 64px;
 }
-
 li{
     text-decoration-style: none;
     list-style: none;
 }
-
 /*SecOne*/
 .secOne {
     display: flex;
@@ -83,7 +78,6 @@ li{
     flex: 1;
     color: white;
 }
-
 /*SecTwo*/
 .secTwo {
     display: flex;
@@ -127,9 +121,7 @@ li{
     align-self: center;
     margin: 0;
 }
-
 /*SecThree*/
-
 .secThree{
     background-color: #e5e7eb ;
     display: flex;
@@ -159,11 +151,60 @@ li{
     max-width: 1000px;
     width: 100%;
 }
+/*secFour*/
+.secFour{
+    background-color: #f9faf8 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+.container{
+    background-color: #3882f6;
+    max-width: 800px;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 100px 32px 100px ;
+    border-radius: 5px;
+    gap: 100px;
+}
+.container > .callToActionText > p {
+    color: #f9faf8;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.whiteBoldBody{
+    font-weight: 400;
+    padding-bottom: 5px;
 
-
-
-
-
+}
+.whiteLightBody
+{
+    color: #f9faf8;
+    font-weight: 100;
+}
+.borderedButton{
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 100px;
+    height: 28px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+}
+/*footer*/
 .footer{
-    border: 1pt solid lightblue;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 65px;
+}
+.footer > p{
+    align-self: center;
 }
