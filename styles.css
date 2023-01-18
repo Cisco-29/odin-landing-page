@@ -73,6 +73,11 @@ li{
     border: 0;
     color: #f9faf8;
 }
+.left > button:hover{
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
 .fakeImage{
     background-color: lightgray;
     flex: 1;
@@ -198,6 +203,11 @@ li{
     border: 2px solid #f9faf8;
     color: #f9faf8;
 }
+.borderedButton:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
 /*footer*/
 .footer{
     display: flex;
